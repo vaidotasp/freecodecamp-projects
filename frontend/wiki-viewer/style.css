@@ -73,6 +73,12 @@ a {
   font-size: 40px !important;
 }
 
+@media (pointer: coarse) {
+  #title {
+    font-size: 80px !important;
+  }
+}
+
 #button {
   border: 0 none;
   background: url(img/search.svg) #fefdef center no-repeat;
@@ -81,6 +87,13 @@ a {
   height: 40px;
   cursor: pointer;
   float: left;
+}
+
+@media (pointer: coarse) {
+  #button {
+    width: 6rem;
+    height: 6rem;
+  }
 }
 
 #search {
@@ -99,6 +112,14 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 0, 0.23);
 }
 
+@media (pointer: coarse) {
+  #search {
+    font-size: 32px;
+    width: 30rem;
+    height: 6rem;
+  }
+}
+
 #random-button {
   background: url(img/shuffle.svg) rgba(254, 253, 239, 1) center no-repeat;
   width: 40px;
@@ -108,6 +129,13 @@ a {
   cursor: pointer;
   outline: none;
   border: 0 none;
+}
+
+@media (pointer: coarse) {
+  #random-button {
+    width: 6rem;
+    height: 6rem;
+  }
 }
 
 .items-line {
