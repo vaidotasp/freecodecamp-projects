@@ -1,0 +1,22 @@
+{
+  "name": "wiki-viewer",
+  "version": "1.0.0",
+  "description": "**Project link:** (https://vaidotasp.github.io/wiki-viewer/)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaidotasp/wiki-viewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaidotasp/wiki-viewer/issues"
+  },
+  "homepage": "https://github.com/vaidotasp/wiki-viewer#readme",
+  "dependencies": {
+    "prettier": "^1.7.4"
+  }
+}
