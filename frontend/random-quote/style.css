@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:300';
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import 'https://fonts.googleapis.com/css?family=PT+Sans+Caption';
+
+body {
+  background-color: rgb(135, 193, 252);
+}
+
+.quote {
+  position: relative;
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+@media (pointer: coarse) {
+  .quote {
+    font-size: 2.2rem;
+  }
+}
+
+.author {
+  text-align: right;
+  font-size: 0.9em;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 550px;
+  height: auto;
+  padding: 20px;
+  background-color: rgb(235, 106, 60);
+  border-radius: 7px;
+}
+
+@media (pointer: coarse) {
+  .main {
+    font-size: 10rem;
+    width: 80%;
+    height: 330px;
+  }
+}
+
+.new {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  height: 42px;
+  width: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 16px !important;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  overflow: auto;
+  border-style: none;
+}
+
+@media (pointer: coarse) {
+  .new {
+    font-size: 1.5rem !important;
+    width: 150px;
+    height: 4rem;
+  }
+}
+
+.tweet {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  height: auto;
+  width: auto;
+  font-size: 35px !important;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+@media (pointer: coarse) {
+  .tweet {
+    font-size: 3rem !important;
+    width: 150px;
+    height: 4rem;
+  }
+}
+
+.foot {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+@media (pointer: coarse) {
+  .foot {
+    font-size: 1.5rem;
+  }
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+@media (pointer: coarse) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
