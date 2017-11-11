@@ -1,0 +1,31 @@
+{
+  "name": "local-weather",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Challenge (https://www.freecodecamp.com/challenges/show-the-local-weather)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaidotasp/Local-Weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "8.x"
+  },
+  "bugs": {
+    "url": "https://github.com/vaidotasp/Local-Weather/issues"
+  },
+  "homepage": "https://github.com/vaidotasp/Local-Weather#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "moment": "^2.19.1",
+    "nodemon": "^1.12.1",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
