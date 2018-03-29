@@ -12,6 +12,4 @@ FreeCodeCamp Challenge (https://www.freecodecamp.org/challenges/build-a-pomodoro
 
 **Demo**
 
-![](./pomodoro_demo.png)
-
 <img src="./pomodoro_demo.png" style="width:500px"></img>
