@@ -12,6 +12,4 @@ FreeCodeCamp Challenge (https://www.freecodecamp.org/challenges/build-a-pomodoro
 
 **Demo**
 
-![](https://media.giphy.com/media/l2QE6LZC7ITNALlpS/giphy.gif)
-
-
+![](./pomodoro_demo.png)
