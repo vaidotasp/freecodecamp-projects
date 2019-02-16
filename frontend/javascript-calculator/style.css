@@ -1,0 +1,129 @@
+ body,html {
+  background-color: #E0E0E0;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top:60px;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+ }
+
+#calculator {
+  border: 1px solid black;
+  /*display: inline-block;*/
+  margin: 0 auto;
+  width: 255px;
+  padding: 5px;
+  padding-right: 0px;
+  background-color: #9E9E9E;
+  }
+
+
+#Crow {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  height: 50px;
+}
+
+h1 {
+  font-family: 'Yesteryear', cursive;
+  display:flex;
+  flex-direction:column;
+  width: 115px;
+  height: auto;
+  margin-top: 5px;
+  font-size: 34px;
+  margin-left: 7px;
+  color: #FFB74D;
+}
+
+#C:hover {
+  background-color: #BF360C;
+}
+
+#C {
+  display:flex;
+  flex-direction:column;
+  width: 120px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left:10px;
+  margin-right:5px;
+  background-color: #FF7043;
+  vertical-align: middle;
+  line-height: 45px; 
+  text-align: center;
+}
+
+#equals {
+  background-color: #004D40;
+}
+
+#result {
+  text-align: right;
+  width: 244px;
+  height: 50px;
+  padding-right:5px;
+  font-size: 40px;
+  border: 2px solid black;
+  color: white;
+  background: #1f7f5c;
+ }
+
+.buttons {
+  margin-top:5px;
+  width: 249px;
+  text-align: center;
+  position:relative;
+  background-color: gray;
+}
+.number:hover{
+  transition: 0.1s;
+  color: orange;
+  cursor: pointer;
+  border: 1px solid orange;
+}
+.key:hover, .operator:hover {
+  transition: 0.1s;
+  color: orange;
+  cursor: pointer;
+  border: 1px solid orange;
+}
+
+.key, .number, .operator {
+  /*experimental box*/
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.65);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.65);
+  
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0.2rem;
+  color: white;
+  background: black;
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  font-size: 50px;
+  vertical-align: middle;
+  line-height: 60px; 
+  text-align: center;
+}
+
+ #multiply, #minus {
+  height: 60px;
+  vertical-align: middle;
+  line-height: 75px; 
+  text-align: center;
+  
+  }
+
+  #minus {
+    line-height: 45px;
+    font-size: 90px;
+  }
+
